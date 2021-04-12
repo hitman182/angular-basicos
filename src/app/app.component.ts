@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+ 
+  contador : boolean = false;
+  heroes : boolean = false;
+
+  mostrarHeroes(){
+    this.heroes = !this.heroes;
+  }
+
+  mostrarContador(){
+    this.contador = !this.contador;
+  }
 }
+
+
+
+
