@@ -9,6 +9,7 @@ export class AppComponent {
  
   contador : boolean = false;
   heroes : boolean = false;
+  dbz:boolean=false;
 
   mostrarHeroes(){
     this.heroes = !this.heroes;
@@ -16,6 +17,9 @@ export class AppComponent {
 
   mostrarContador(){
     this.contador = !this.contador;
+  }
+  mostrarDbz(){
+    this.dbz = !this.dbz;
   }
 }
 
