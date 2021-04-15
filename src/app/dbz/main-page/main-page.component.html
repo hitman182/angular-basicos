@@ -15,7 +15,7 @@
                 
             </ul>
        -->
-       <app-personajes [personajes]="personajes"></app-personajes>
+       <app-personajes></app-personajes>
     </div>
     <div class="col">
         <!--
@@ -38,9 +38,7 @@
             <button type="submit">Agregar</button>
         </form>
         -->
-        <app-personaje [nuevo]="nuevo"
-                       (onNuevoPersonaje)="agregarNuevoPersonaje( $event )" >
-        </app-personaje>
+        <app-personaje [nuevo]="nuevo"></app-personaje>
 
     </div>
 </div>
